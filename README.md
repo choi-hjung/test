@@ -19,6 +19,5 @@
 | id | BIGINT | PK (AUTO_INCREMENT) | N | 일정 ID | - |
 | title | VARCHAR(25) | - | N | 할 일 제목 | - |
 | username | VARCHAR(10) | - | N | 작성자 | - |
-| password | VARCHAR(255) | - | N | 비밀번호 | - |
 | created_at | DATETIME | - | N | 생성일 | CURRENT_TIMESTAMP |
 | updated_at | DATETIME | - | N | 수정일 | ON UPDATE CURRENT_TIMESTAMP |
